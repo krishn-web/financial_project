@@ -1,232 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit = no">
-    <title>krishn's Company Website</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Financial Project</title>
+
+	<!-- BootStrap And Font Awesome Links -->
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Jquery Links-->
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+	<script src="script.js"></script>
+	
 </head>
 <body>
-	<div id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<a class="text-white font-weight-bold" id="logo" href="https://github.com/krishn-web">KRISHN</a>
-				</div>
-				<div class="col-md-8">
-					<ul id="menu" class="float-md-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#comments">Comments</a></li>
-						<li><a href="#news">News</a></li>
-						<li><a href="#footer-sidebar">Contact Us</a></li>
-					</ul>
-				</div>
+    
+	<!--------------------------------- Navigation Bar ------------------------------------->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="mylogo.jpg" class="mylogo" alt="Logo"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Extra</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-	</div>
+	</nav>
+	
+	<!--------------X------------------ Navigation Bar END --------------------X---------------->
 
-	<div id="banner" class="py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-lg-6">
-					<div class="banner-title">
-						<h1 class="title">Heading Here</h1>
-						<p class="lead">
-							Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!--------------------------------- Home ------------------------------------->
 
-	<div class="container section" id="services">
+	<div class="container-fluid" id="home">
 		<div class="row">
-			<div class="col-md-12">
-				<h2 class="section-head">Here Is Service Heading</h2>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="service-box">
-					<i class="fa fa-anchor" aria-hidden="true"></i>
-					<h3>Part Service Heading</h3>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="service-box">
-					<i class="fa fa-bar-chart" aria-hidden="true"></i>
-					<h3>Part Service Heading</h3>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<div class="service-box">
-					<i class="fa fa-diamond" aria-hidden="true"></i>
-					<h3>Part Service Heading</h3>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
+			<div class="col-12 main_home">
+				<div class="home_text">
+					<h4>Best Opportunity For</h4>
+					<h1>Bright Future <br> Invest In Gold</h1>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="comments" class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="section-head text-white">Comments</h2>
-				</div>
-				<div class="col-md-6">
-					<p>
-						Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.
-					</p>
-					<img src="img/deep.jpg" alt="">
-					<div class="main-author ml-5 align-center">
-						<div class="author">Deep Patel</div>
-						<div class="author-company">Microsoft</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<p>
-						Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.
-					</p>
-					<img src="img/om.jpg" alt="">
-					<div class="main-author ml-5 align-center">
-						<div class="author">Om Patel</div>
-						<div class="author-company">Apple</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container section" id="news">
-		<div class="row">
-			<div class="col-md-12 text-white">
-				<h2 class="section-head">Recent News</h2>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="news-post">
-					<img src="img/recent1.jpg" alt="">
-					<h3>News Heading</h3>
-					<div class="post-date">2 Dec 2020</div>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-					<a href="#news" class="readmore">Read More</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="news-post">
-					<img src="img/recent2.jpg" alt="">
-					<h3>News Heading</h3>
-					<div class="post-date">2 Dec 2020</div>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-					<a href="#news" class="readmore">Read More</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="news-post">
-					<img src="img/recent3.jpg" alt="">
-					<h3>News Heading</h3>
-					<div class="post-date">2 Dec 2020</div>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-					<a href="#news" class="readmore">Read More</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-				<div class="news-post">
-					<img src="img/recent4.jpg" alt="">
-					<h3>News Heading</h3>
-					<div class="post-date">2 Dec 2020</div>
-					<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-					<a href="#news" class="readmore">Read More</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="footer-sidebar">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-4">
-					<div class="footer-widget">
-						<h4>About Company</h4>
-						<p>Sport includes all forms of competitive physical activity or games which,[1] through casual or organized participation.</p>
-						<p>Sport includes all forms of competitive physical activity or games</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="footer-widget">
-						<h4>Latest News</h4>
-						<ul class="latest-news">
-							<li><a href="#news">Sport includes all forms of competitive physical activity or games</a></li>
-							<li><a href="#news">Sport includes all forms of competitive physical activity or games</a></li>
-							<li><a href="#news">Sport includes all forms of competitive physical activity or games</a></li>
-							<li><a href="#news">Sport includes all forms of competitive physical activity or games</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="footer-widget">
-						<h4>Company Address</h4>
-						<b>Patel - Website King</b>
-						<address>
-							Umiya Chowk <br> Boriavi , 387310 <br> Anand , Gujarat , India
-							<br> Phone No : +91 0000000000
-						</address>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					copyright@krishn company 2020.
-				</div>
-				<div class="col-md-6">
-					<ul id="social-icon" class="float-md-right">
-						<li><a href="https://www.facebook.com/krishn.patel.182" class="fa fa-facebook-official" aria-hidden="true"></a></li>
-						<li><a href="#footer" class="fa fa-telegram" aria-hidden="true"></a></li>
-						<li><a href="https://www.instagram.com/patel_kisu_212/" class="fa fa-instagram" aria-hidden="true"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<div class="scrolltop float-right">
-            <i class="fa fa-arrow-up" onclick="topFunction()" id="mybtn"></i>
-		</div>
-		
-		<script>
-        
-			mybutton = document.getElementById("mybtn");
 	
-			window.onscroll = function() {scrollFunction()};
-	
-			function scrollFunction()
-			{
-				if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
-				{
-					mybutton.style.display = "block" ;
-				}
-				else
-				{
-					mybutton.style.display = "none" ;
-				}
-			}
-	
-			function topFunction()
-			{
-				document.body.scrollTop = 0;
-				document.documentElement.scrollTop = 0;
-			}
-	
-		</script>
 
-	</div>
+	<!--------------X------------------ Home END --------------------X---------------->
+
+	<!--------------------------------- Features ------------------------------------->
+
+	<section class="header-features" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 features_icon">
+                    <i class="fas fa-3x fa-hourglass-half mb-3"></i>
+                    <h2>Retirment Planning</h2>
+                    <p>During the job you can invest money in the Gold in parts. So, you will not have burden to pay money. Moreover, After some time , you will have your own Gold. You can increase your properties without do more. </p>
+                </div>
+                <div class="col-md-4 features_icon">
+                    <i class="fas fa-3x fa-dollar-sign mb-3"></i>
+                    <h2>Best Investment Without Risk</h2>
+                    <p>Mostly all Investments have risk. Whereas, Gold is the thing,which will always move on up-trend.</p>
+                </div>
+                <div class="col-md-4 features_icon">
+                    <i class="fas fa-3x fa-child mb-3"></i></i>
+                    <h2>Good Future For Childern</h2>
+                    <p>In the future, Gold price will grew more and more. So, it will the best Investment as a long term without risk. Furthermore,it is best for your childern,beacuse he will get such a best investment by such a good long term inverster like you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!--------------X------------------ Features END --------------------X---------------->
+
+	<!--------------------------------- Features ------------------------------------->
+
+	<!--------------X------------------ Features END --------------------X---------------->
+
 </body>
 </html>
